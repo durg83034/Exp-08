@@ -1,0 +1,92 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Alkaline hydrolysis of fat/oil to form soap is known as ?",
+      "answers": {
+        "a": "Neutralization",
+        "b": "Enzymolysis",
+        "c": "Saponification",
+        "d": "Alkalimetry"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following term describe saponification ?",
+      "answers": {
+        "a": "Cleaving of ester molecules into carboxylic salt",
+        "b": "Hydrolysis of ester",
+        "c": "Esterification of long chain carboxylic acid",
+        "d": "Removal of water to form ester"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner" 
+    },
+     {
+      "question": "How many molecules of fatty acids are released from a triglyceride ?",
+      "answers": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+     },
+    
+     {
+      "question": "Triglycerides are natural esters of glycerol with ?",
+      "answers": {
+        "a": "Long chain aliphatic carboxylic acids",
+        "b": "Tribasic carboxylic acids",
+        "c": "High molecular weight aromatic carboxylic acids",
+        "d": "Tribasic mineral acids"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+     },
+    
+     {
+      "question": "The inappropriate indicator for strong acid – strong base titration is  ?",
+      "answers": {
+        "a": "Phenolphthalein ",
+        "b": "Methyl orange",
+        "c": "Bromophenol blue",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+     },
+  ]
+}

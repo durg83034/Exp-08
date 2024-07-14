@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement of Electrical conductance to determine dissociation constant of 'Acetic' acid</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stopwatch.css">
+</head>
+<body id="body">
+    <main class="main">
+        <div class="header" id="header">
+          <h1 id="ins">Instructions :-</h1>
+          <h1 id="text"> lets start the experiment</h1>
+        </div>
+
+
+        <div class="footer">
+            
+            <div id="experiment">
+
+                <!-- ------------------------------  TABLES AND BACKGROUNDS  ----------------------- -->
+
+                <!-- <img id="startinglab" src="images/working-area-empty1-big-lab1.jpg" alt=""> -->
+                <!-- <img id="startinglab" src="images/bg4 copy.png" alt=""> -->
+                <img id="startinglab" src="images/durgesh lab edits.png" alt="">
+
+
+                <!-- --------------------------------------     INSTRUMENTS    ----------------------------------------- -->
+                
+
+                <img id="heater" src="images/heater.png" alt="">
+                <img id="heaterdone" src="images/heater-done.png" alt="">
+
+                <div id="watch">
+                  <h3 id="timetext">stopwatch 4x >></h3>
+
+                  <div id="time"> 
+                    <span class="digit" id="min">00</span> 
+                    <span class="digit" id="collon">:</span> 
+                    <span class="digit" id="sec"> 00</span> 
+                  </div>
+                </div>
+                <img id="rotary" onclick="nob()" src="images/rotary.png" alt="">
+                <img id="emptypippete" onclick="pippete1()" src="images/empty-pippete.png" alt="">
+                <img id="pippete" onclick="pippete1()" src="images/pippete.png" alt="">
+                <img id="drop" src="images/drop.png" alt="">
+                <img id="eflask" src="images/empty-flask.png" alt="">
+                <img id="oilsample" src="images/oil sample.png" alt="">
+                <!-- <img id="testing1" src="conical-flask3.png" alt=""> -->
+                <img id="hclhalf" src="images/hcl-half.png" alt="">
+                <img id="hclneck" src="images/hcl-neck.png" alt="">
+                <img id="hclsol" onclick="hcl()" src="images/hcl.png" alt="">
+                <img id="kohsol" src="images/koh 100ml.png" alt="">
+                <img id="kohhalf" src="images/koh 100ml-half.png" alt="">
+                <img id="kohneck" src="images/koh 100ml-neck.png" alt="">
+                <img id="funnel" src="images/funnel.png" alt="">
+                <img id="eburette" src="images/empty-Burette-50ml.png" alt="">
+                <img id="b20" src="images/Burette-20ml.png" alt="">
+                <img id="b27" src="images/Burette-27ml.png" alt="">
+                <img id="burette" src="images/Burette-50ml.png" alt="">
+                <div id="clicker" onclick="titrate()"></div>
+                <img id="pc" onclick="phenolph()" src="images/phenolphthelein-cap.png" alt="">
+                <img id="koh15ml" onclick="flask1()" src="images/normal koh 15ml.png" alt="">
+                <img id="koh15p" onclick="flask1()" src="images/koh 15ml -phenolphthelien.png" alt="">
+                <img id="kohoil" onclick="oilflask(),flask2()"  src="images/koh 15ml oil added.png" alt="">
+                <img id="kohoilp" onclick="flask2()" src="images/koh 15ml oil added-phenolphthelien.png" alt="">
+                <img id="pb" src="images/phenolphthelein-bottle.png" alt="">
+
+
+
+
+                <!-- <img id="dessicato" src="dessicator-new.png" alt=""> -->
+
+
+
+
+  
+            
+              
+
+
+
+                <div id="popup">
+                  <h1 id="ptext"> Heat the oil mixture for 30 minutes at 70<sup>0</sup>C to make oil proper soluble in KOH </h1>
+                </div>
+
+               
+                
+                <button id="start" onclick="start()" >START</button>
+            </div>
+
+
+
+            <div id="tablesdiv">
+              <table id="table1" class="tbl1">
+                  <thead>
+                  <tr>
+                      <th>S. No. </th>
+                      <th>Weight of <br> the oil <br> taken (in g)</th>
+                      <th>Volume of <br> 0.5 N HCL <br> required to <br> titrate (V<sub>o</sub>) <br> (in mL) </th>
+                      <th>Volume of 0.5 N <br> HCL required to <br>titrate the control <br>(i.e. without oil) <br> (V<sub>c</sub>) (in mL)</th>
+                      <th>Weight of <br> KOH required <br> to complete the <br> saponification <br> (in mg)<sup>$</sup></th>
+                      <th>Saponification <br> value (mg of <br> KOH/g of oil) </th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>1.51</td>
+                      <td>7.3</td>
+                      <td>20.1</td>
+                      <td>359.04</td>
+                      <td>237.77</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>1.50</td>
+                      <td>7.5</td>
+                      <td>20.0</td>
+                      <td>350.62</td>
+                      <td>233.75</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>1.53</td>
+                      <td>7.0</td>
+                      <td>20.2</td>
+                      <td>370.26</td>
+                      <td>242.00</td>
+                  </tr>
+                  <tr>
+                    <td>Average</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                    <td>237.84</td>
+                </tr>
+                  </tbody>
+              </table>
+              <h1 id="formula"> <sup>$</sup>Weight of KOH = Normality of KOH x Equivalent weight of KOH x Volume (V<sub>c</sub>-V<sub>o</sub>)  </h1>
+          </div>
+
+
+
+
+
+        </div>
+
+          <!-----------------------------------         LANGUAGE SELECTOR            --------------------------------------------->
+
+        <div id="langselector">        
+            <h1 id="lselector">Please select your language</h1>
+            <button id="hindi" onclick="hindi1()">हिंदी</button>
+            <button id="eng" onclick="eng1()">ENG</button>
+        </div>
+    </main>
+    <script src="script/project.js"></script>
+    <script src="script/newsteps.js"></script>
+    <script src="script/stopwatch.js"></script>
+    <script src="script/titration.js"></script>
+    <script src="script/bypass.js"></script>
+</body>
+</html>
